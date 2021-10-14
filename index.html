@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div class="cercl1"></div>
+        <div class="cercl2"></div>
+        <div class="cercl3"></div>
+        <h1 id="title">Freecodecamp Survey Form</h1>
+         <p id="description">This Survey Form are build with <span class="cs">css</span> and <span class="ht">html</span>               only</p>
+        <div class="container">
+            <form id="survey-form" action="">
+                <div class="input-groupe">
+                <label id="name-label" for="">name</label><br>
+                <input id="name" type="text"required placeholder="Enter your name"><br><br>
+                <label id="email-label" for="">email</label><br>
+                <input id="email" type="email" required placeholder="Enter your e-mail"><br><br>
+                <label id="number-label" for="">Age</label><br>
+                <input type="number" min="18" max="150" name="age" id="number" placeholder="Enter your age" required><br><br>
+                <label for=" ">what is your car</label><br>
+                </div>
+                     <div class="drop">
+                        <select name="" id="dropdown">
+                        <option value="0">Select car:</option>
+                        <option value="Bmw">Bmw</option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Renault">Renault</option>
+                        <option value="Skoda">Skoda</option>
+                        <option value="3">Citroen</option>
+                        <option value="4">Ford</option>
+                        <option value="5">Honda</option>
+                        <option value="6">Jaguar</option>
+                        </select><br><br>
+                    </div>
+                    <div class="radio">
+                        <label for="genre">what is you genre</label> <br><br>
+                        <input type="radio" name="genre" value="male" id="">
+                        <label for="">Male</label>
+                        <input type="radio" name="genre" value="female" id="">
+                        <label for="">Female</label><br><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> I have a car</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> I have a boat</label><br><br>
+                    </div>
+                <div class="comment">
+          <label for="">comment </label><br>
+          <textarea name="" id="" cols="30" rows="10"></textarea>    
+                </div>
+                <div class="btn">
+    <button type="submit" id="submit" class="submit-button">
+        Submit
+    </button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  position: relative;
+}
+#main {
+  background-image: linear-gradient(#fff, #f25);
+}
+.cercl1 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-image: linear-gradient(rgb(255, 11, 51), rgb(255, 21, 243));
+  position: absolute;
+  top: 200px;
+  left: -60px;
+  z-index: 1;
+}
+.cercl2 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-image: linear-gradient(rgba(255, 11, 52, 0), rgb(255, 21, 243));
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+}
+.cercl3 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to top left,
+    rgb(94, 124, 255),
+    rgb(255, 21, 243)
+  );
+  position: absolute;
+  right: 650px;
+  top: 650px;
+  z-index: 1;
+}
+h1 {
+  font-family: "Pacifico", sans-serif;
+  text-align: center;
+  margin: 10px;
+  z-index: 6;
+}
+#description {
+  text-align: center;
+  margin: 7px;
+}
+.container {
+  width: 80%;
+  height: 90%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  z-index: 20;
+}
+#survey-form {
+  padding: 2rem;
+}
+.input-groupe input {
+  width: 100%;
+  padding: 0.625rem;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+textarea {
+  width: 100%;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+select {
+  width: 100%;
+  padding: 0.625rem;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: white;
+  border: 0.5px solid white;
+  /* background: linear-gradient(to bottom right , rgb(252, 5, 141), rgba(255, 0, 0, 0)); */
+}
+.select-selected {
+  background-color: DodgerBlue;
+}
+#dropdown {
+  position: relative;
+}
+#dropdown select {
+  display: none;
+}
